@@ -1,5 +1,4 @@
-from datetime import datetime, timedelta
+import random
 
-now = datetime.now()
-future_date = now + timedelta(days=10)  # Додаємо 10 днів до поточної дати
-print(future_date)
+target = random.randrange(1, 11, 2)
+print(target)
