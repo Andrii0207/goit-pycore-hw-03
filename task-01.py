@@ -7,4 +7,4 @@ def get_days_from_today(date):
     return print(delta.days)
     
 
-get_days_from_today('2020-10-09')
+get_days_from_today("2021-10-09")
